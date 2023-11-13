@@ -13,6 +13,7 @@ def data_loader(
     context_key: str = "_context",
     input_key: str = "_input",
     prompt_template: str = "###Instruction:\n{}###Response:\n{}",
+    **kwargs,
 ) -> Dataset:
 
     """
